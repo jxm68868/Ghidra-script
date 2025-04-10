@@ -30,7 +30,7 @@ def get_full_namespace_prefix(namespace):
 
 def export_all_functions():
     """修复后的导出函数"""
-    base_dir = r"E:\Security-Project\Nokia\output\6.2"
+    base_dir = r"output_PATH"
     if not os.path.exists(base_dir):
         os.makedirs(base_dir)
 
